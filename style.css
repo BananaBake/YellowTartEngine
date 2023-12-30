@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ffd500;
+}
+
+audiowide, .logo {
+  font-family:'Audiowide', sans-serif;
+}
+.logo {
+  background-color: #4ec0f5;
+  border-radius: 5em;
+  font-size: 3em;
+  margin: 0.5em;
+}
+.background {
+  background-color: #73c0ff;
+  border-radius: 2.5%;
+  margin: 3ch;
+}
+
+padded {
+  padding: 2em;
+}
+left {
+  float: left;
+}
