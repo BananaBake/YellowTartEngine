@@ -1,24 +1,24 @@
-// decode json 
-/*
-let json = '{ "name":"John", "age":30, "city":"New York"}';
-let obj = JSON.parse(json);
-console.log(obj);
-
-//looping through json
-for (let x in obj) {
-  console.log(x + ": " + obj[x]);
-}
-*/
-const soup = document.getElementById("soup");
-
-for (let i = 0; i < 90; i++) {
-  const content = chunk(
-    i,
-    i + 1
+  displayTart(
+    "/Images/cherry.jpeg",
+    "Cherry tart",
+    "YUM,YUM cherries are yummy,especially in a tart",
+    "1.99"
   );
-  const div = document.createElement("div");
-  div.innerHTML = content;
-  div.id = i;
-  div.classList.add("background");
-  soup.appendChild(div);
-}
+ displayTart(
+    "/Images/apple.jpeg",
+    "Apple tart",
+    "Crispy,flakey crust,filled with apple and cinnamon.How delightful?",
+    "1.99"
+  );
+displayTart(
+    "/Images/blueberry.jpeg",
+    "Blueberry tart",
+    "Feeling blue? Have one of these to cheer you up!",
+    "1.99"
+  );
+ displayTart(
+    "/Images/pumkin.jpeg",
+    "Pumkin & Almond tart",
+    "Hot sweet,Yummy pumkin in a tart.A   spoon of crème and perfect",
+    "1.99"
+  );

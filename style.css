@@ -1,29 +1,47 @@
 html {
   height: 100%;
   width: 100vw;
-  background-color: #ffd500;
+  background-color: #ffda1f;
 }
 
-audiowide, .logo {
-  font-family:'Audiowide', sans-serif;
-}
+.audiowide,
 .logo {
-  background-color: #4ec0f5;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.logo {
+  background-color: #f5bb4e;
   border-radius: 5em;
   font-size: 3em;
   margin: 0.5em;
 }
+
 .background {
-  background-color: #73c0ff;
+  background-color: #ffd940;
   border-radius: 2.5%;
-  margin: 3ch;
+  margin: 1em;
 }
 
-padded {
-  padding: 2em;
+.tart-image {
+  width: calc(100% - 2em);
+  padding: 1em;
+}
+
+.payBtn {
+  background-color: #49a1c9;
+  border-radius: 5em;
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+.padded {
+  padding: 1em;
 }
 
 .underline {
   text-decoration: underline;
-  background-color: #99d1ff;
+  background-color: #ffac12;
+}
+.bold {
+  font-weight: bold;
 }
