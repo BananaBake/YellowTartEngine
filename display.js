@@ -17,8 +17,8 @@ displayTart(
     "1.99"
   );
  displayTart(
-    "Images/pumkin.jpeg",
-    "Pumkin & Almond tart",
-    "Hot sweet,Yummy pumkin in a tart.A   spoon of crème and perfect",
+    "Images/pumpkin.jpeg",
+    "Pumpkin & Almond tart",
+    "Hot sweet,Yummy pumpkin in a tart.A   spoon of crème and perfect",
     "1.99"
   );
