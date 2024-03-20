@@ -2,6 +2,11 @@ html {
   height: 100%;
   width: 100vw;
   background-color: #ffda1f;
+  background-image: url("./images/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .audiowide,
@@ -27,7 +32,7 @@ html {
   padding: 1em;
 }
 
-.payBtn {
+.add-to-cart {
   background-color: #49a1c9;
   border-radius: 5em;
   font-size: 1.5em;
