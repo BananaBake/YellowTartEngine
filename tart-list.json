@@ -32,13 +32,13 @@
     {
     "image": "doggy",
     "name": "doggy tart",
-    "description": "Heads up little doggies !",
-    "price": "$5.99"
+    "description": "Heads up little doggies!",
+    "price": "5.99"
   },
     {
     "name": "choco",
-    "description": "No toilet jokes guys! Its pure chocolate.",
+    "description": "Its pure chocolate.",
     "image": "choco",
-    "price": "$3.99"
+    "price": "3.99"
   }
 ]
