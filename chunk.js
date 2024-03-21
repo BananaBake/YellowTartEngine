@@ -1,27 +1,15 @@
-function displayTart(pic,name,desc,price) {
-  if (!(pic && name && desc && price)) return;
+function displayTart(image, name, description, price) {
+  if (!(image && name && description && price)) return;
   let tart = document.createElement("div");
   tart.classList.add("background");
-  let img = document.createElement("img");
-  img.classList.add("tart-image");
-  img.src = `./images/tarts/${pic}.jpeg`;
-  let tartText = document.createElement("div");
-  tartText.classList.add("tart-text");
-  let nameText = document.createElement("p");
-  nameText.classList.add("bold");
-  nameText.innerText = name;
-  let descText = document.createElement("p");
-  descText.innerText = desc;
-  let priceText = document.createElement("p");
-  priceText.innerText = "£" + price;
-  let addButton = document.createElement("button");
-  addButton.classList.add("add-to-cart");
-  addButton.innerText = "Add to cart";
-  tartText.appendChild(nameText);
-  tartText.appendChild(descText);
-  tartText.appendChild(priceText);
-  tartText.appendChild(addButton);
-  tart.appendChild(img);
-  tart.appendChild(tartText);
+  let tartHTML = `
+    <img class="tart-image" src="./images/tarts/${image}.jpeg">
+    <div class="tart-text">
+      <p class="bold">${name}</p>
+      <p>${description}</p>
+      <p>£${price}</p>
+      <button class="add-to-cart">Add to cart</button>
+    </div>`;
+  tart.innerHTML = tartHTML;
   document.getElementById("products").appendChild(tart);
 }
