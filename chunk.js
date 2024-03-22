@@ -1,7 +1,8 @@
 function displayTart(image, name, description, price) {
   if (!(image && name && description && price)) return;
-  let tart = document.createElement("div");
+  let tart = document.createElement("center");
   tart.classList.add("background");
+  tart.classList.add("tart");
   let tartHTML = `
     <img class="tart-image" src="./images/tarts/${image}.jpeg">
     <div class="tart-text">

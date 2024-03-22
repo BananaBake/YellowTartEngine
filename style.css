@@ -45,8 +45,23 @@ html {
 
 .underline {
   text-decoration: underline;
-  background-color: #ffac12;
 }
+
 .bold {
   font-weight: bold;
+}
+
+p {
+  margin: 0.5em;
+}
+
+.tart {
+  width: calc(33% - 2em);
+  display: inline-table;
+}
+
+@media only screen and (max-width: 600px) {
+  .tart {
+    width: calc(100% - 2em);
+  }
 }
